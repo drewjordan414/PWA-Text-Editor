@@ -30,8 +30,8 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 registerRoute(
   ({ request }) => {
     return (
-      request.destination === 'script' ||
-      request.destination === 'style' 
+      request.destination === 'script' || //javascript
+      request.destination === 'style' //css
     );
   },
   new StaleWhileRevalidate({
