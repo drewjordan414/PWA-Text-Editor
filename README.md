@@ -1,6 +1,7 @@
 # PWA-Text-Editor
 
-
+## Description
+This is a text editor that can be used online or offline. It is a progressive web application that uses IndexedDB to store data locally. It also uses webpack to bundle the JavaScript files and workbox to cache the application for offline use. The application can be installed on a desktop.  
 
 ## User Story
 ```md
@@ -51,6 +52,7 @@ https://peaceful-eyrie-84115-d8dd84774cc3.herokuapp.com/
 * JavaScript
 * Heroku
 * Webpack
+* Workbox
 
 
 
