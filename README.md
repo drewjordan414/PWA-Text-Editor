@@ -1,5 +1,7 @@
 # PWA-Text-Editor
 
+
+
 ## User Story
 ```md
 AS A developer
@@ -38,3 +40,19 @@ THEN I should have proper build scripts for a webpack application
 
 ## Heroku Link
 https://peaceful-eyrie-84115-d8dd84774cc3.herokuapp.com/
+
+
+## Screenshots
+![Screenshot](./assets/jate.png)
+
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* Heroku
+* Webpack
+
+
+
+## License
+MIT License
