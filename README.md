@@ -1,7 +1,30 @@
-# PWA-Text-Editor
+# J.A.T.E. (Just Another Text Editor)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Table of Contents
+* [Description](#description)
+* [Key Features](#key-features)
+* [User Story](#user-story)
+* [Acceptance Criteria](#acceptance-criteria)
+* [Heroku Link](#heroku-link)
+* [Screenshots](#screenshots)
+* [Technologies Used](#technologies-used)
 
 ## Description
-This is a text editor that can be used online or offline. It is a progressive web application that uses IndexedDB to store data locally. It also uses webpack to bundle the JavaScript files and workbox to cache the application for offline use. The application can be installed on a desktop.  
+Just Another Text Editor is an innovative web application aimed to offer users an intuitive and responsive text editing platform. 
+The text editor can be used both online or offline. It is a progressive web application that uses IndexedDB to store data locally. 
+It also uses webpack to bundle the JavaScript files and workbox to cache the application for offline use. The application can be installed on a desktop.  
+
+### KEY FEATURES
+* Offline Functionality
+* Service Worker Registration
+  - The application incorporates a service worker registered via Workbox. This worker is responsible for pre-caching static assets for a seamless offline user experience.
+* IndexedDB
+    - The application uses IndexedDB to store data locally. This allows the user to save notes or code snippets without an internet connection.
+* Webpack
+    - The application uses webpack to bundle the JavaScript files. This allows the user to use next-gen JavaScript in the application without errors.
+* Installable Web App
+    - The application can be installed on a desktop. This allows the user to access the application without having to open a browser.
 
 ## User Story
 ```md
@@ -53,8 +76,3 @@ https://peaceful-eyrie-84115-d8dd84774cc3.herokuapp.com/
 * Heroku
 * Webpack
 * Workbox
-
-
-
-## License
-MIT License
